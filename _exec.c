@@ -20,6 +20,13 @@ int execute(char **token, stack_t **stack, unsigned int line_num)
 		{"swap", _swap},
 		{"add", _add},
 		{"sub", _sub},
+		{"mull", _mul},
+		{"div", _div},
+		{"mod", _mod},
+		{"pchar", _pchar},
+		{"pstr", _pstr},
+		{"rotl", _rotl},
+		{"rotr", _rotr},
 		{"null", NULL},
 	};
 

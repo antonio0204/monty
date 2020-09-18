@@ -67,6 +67,16 @@ void _swap(stack_t **stack, unsigned int line_num);
 void _sub(stack_t **stack, unsigned int line_num);
 void _add(stack_t **stack, unsigned int line_num);
 
+/* _opcode2.c */
+void _mul(stack_t **stack, unsigned int line_number);
+void _div(stack_t **stack, unsigned int line_number);
+void _mod(stack_t **stack, unsigned int line_number);
+void _pchar(stack_t **stack, unsigned int line_number);
+void _pstr(stack_t **stack, unsigned int line_number);
+
+/* _opcode3.c */
+void _rotl(stack_t **stack, unsigned int line_number);
+void _rotr(stack_t **stack, unsigned int line_number);
 
 
 /*--- errors ---*/
