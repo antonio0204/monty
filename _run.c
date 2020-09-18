@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * monty_run - A function that runs a Monty bytecodes script.
+ * _run - A function that runs a Monty bytecodes script.
  * @fd: File descriptor for an open Monty bytecodes script.
  * Return: EXIT_SUCCESS on success, or EXIT_FAILURE on error.
  */

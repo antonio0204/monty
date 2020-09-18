@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * monty_pint - A function that prints the top value of the stack.
+ * _pint - A function that prints the top value of the stack.
  * @stack: The pointer to the stack list.
  * @line_number: The current working line number of a Monty bytecodes file.
  */
@@ -20,7 +20,7 @@ void _pint(stack_t **stack, unsigned int line_number)
 
 
 /**
- * monty_pop - A function that removes the top value in the stack.
+ * _pop - A function that removes the top value in the stack.
  * @stack: The pointer to the stack_t list.
  * @line_number: The line number of a Monty bytecodes file.
  */
@@ -41,7 +41,7 @@ void _pop(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_swap - A function that swaps the two values at the top of stack.
+ * _swap - A function that swaps the two values at the top of stack.
  * @stack: The pointer to the top of a stack list.
  * @line_number: The line number of a Monty bytecodes file.
  */
@@ -60,7 +60,7 @@ void _swap(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_add - A function that adds the two top values of a stack.
+ * _add - A function that adds the two top values of a stack.
  * @stack: The pointer to the stack list.
  * @line_number: The line number of a Monty bytecodes file.
  * Description: The result is stored in the second value node
@@ -81,7 +81,7 @@ void _add(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * monty_sub - A function that subtracts the second value from the top of a
+ * _sub - A function that subtracts the second value from the top of a
  * stack linked by the top value.
  * @stack: The pointer to the stack list.
  * @line_number: The line number of a Monty bytecodes file.

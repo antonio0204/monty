@@ -37,7 +37,7 @@ int execute(char **token, stack_t **stack, unsigned int line_num)
 }
 
 /**
-  * monty_push - A function that pushes an element to stack.
+  * _push - A function that pushes an element to stack.
   * @stack: The pointer to the stck struct.
   * @token: The pointer to command.
   * @line_num: The number of the line.
@@ -79,7 +79,7 @@ int _push(stack_t **stack, char **token, unsigned int line_num)
 }
 
 /**
- * monty_pushq - A function that pushes an element to queue.
+ * _pushq - A function that pushes an element to queue.
  * @stack: The pointer to the stck struct.
  * @token: The pointer to command.
  * @line_num: The number of the line.
@@ -130,7 +130,7 @@ int _pushq(stack_t **stack, char **token, unsigned int line_num)
 }
 
 /**
- * monty_pall - A function that prints the values of the stack_t.
+ * _pall - A function that prints the values of the stack_t.
  * @stack: The pointer to the top of a stack_t.
  * @line_num: The number of the line.
  * Return: Nothing.
